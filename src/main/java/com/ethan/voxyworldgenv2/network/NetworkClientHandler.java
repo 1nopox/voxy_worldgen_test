@@ -12,6 +12,10 @@ import net.minecraft.world.level.chunk.PalettedContainer;
 import net.minecraft.world.level.chunk.PalettedContainerFactory;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.core.Holder;
+<<<<<<< Updated upstream
+=======
+import net.minecraft.core.registries.Registries;
+>>>>>>> Stashed changes
 
 public class NetworkClientHandler {
     

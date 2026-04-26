@@ -10,6 +10,7 @@ This is a rewrite of my old Voxy World Gen mod, this mod is NOT a fork of the pa
 - Configurable generation speed and queue size.
 - Tellus integration. https://github.com/Yucareux/Tellus
 - Server-side support
+<<<<<<< Updated upstream
 
 ## Dependencies
 
@@ -18,6 +19,28 @@ This is a rewrite of my old Voxy World Gen mod, this mod is NOT a fork of the pa
 - **Java**: 21 (Required)
 - **Fabric API**
 - **Cloth Config**: >= 15.0.127
+=======
+- `/voxygen` commands for runtime control
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `/voxygen start` | Resume background generation |
+| `/voxygen stop` | Pause background generation |
+| `/voxygen status` | Show current status, active tasks, remaining chunks |
+
+> Requires OP level 2.
+
+## Dependencies
+
+- **Minecraft**: 1.21.1
+- **Fabric Loader**: >= 0.18.3
+- **Java**: 21 (Required)
+- **Fabric API**
+- **Cloth Config**: >= 15.0.127
+- **Voxy**: compatible release for 1.21.1
+>>>>>>> Stashed changes
 
 ## Building
 
