@@ -46,7 +46,9 @@ public final class DebugRenderer {
         }
         
         String status;
-        if (manager.isThrottled()) {
+        if (manager.isManuallyPaused()) {
+            status = "§7paused";
+        } else if (manager.isThrottled()) {
             status = "§cthrottled (low tps)";
         } else if (remaining == 0) {
             status = "§adone";

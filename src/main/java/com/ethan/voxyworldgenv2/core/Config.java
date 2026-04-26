@@ -50,6 +50,7 @@ public final class Config {
     
     public static class ConfigData {
         public boolean enabled = true;
+        public boolean autoStartOnLoad = false;
         public boolean showF3MenuStats = true;
         public int generationRadius = 128;
         public int update_interval = 20; // legacy field for Compat
